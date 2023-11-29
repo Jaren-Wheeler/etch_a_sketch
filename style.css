@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+   
+}
+
+.window {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    padding: 20px;
+    width: 45%;
+    border: solid white;
+}
+.square1,
+.square2,
+.square3,
+.square4,
+.square5,
+.square6,
+.square7,
+.square8,
+.square9,
+.square10,
+.square11,
+.square12,
+.square13,
+.square14,
+.square15,
+.square16 {
+    background-color: white;
+    border: solid black;
+    width: 24.5%;
+    aspect-ratio: 1 / 1;
+}
