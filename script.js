@@ -1,7 +1,21 @@
+/* Written by Jaren Wheeler - Nov. 28, 2023 */
+
 
 let win = document.querySelector(".window");
 
-let square1 = document.createElement("div");
+// Creates the grid. Takes an input of grid dimension (inputting n gives nxn grid). Returns an n-length array of divs.
+let createGrid = (gridDim) => {
+    const gridSize = gridDim**2; 
+    let grid = [];
+    for (let i = 0; i<gridSize; i++) {
+        let gridElement = document.createElement("div");
+        grid.push(gridElement);
+    }
+}
+
+
+
+/*let square1 = document.createElement("div");
 let square2 = document.createElement("div");
 let square3 = document.createElement("div");
 let square4 = document.createElement("div");
@@ -67,6 +81,6 @@ let square12Hover = square12.addEventListener("mouseover", () => square12.style.
 let square13Hover = square13.addEventListener("mouseover", () => square13.style.backgroundColor = "#00ff00");
 let square14Hover = square14.addEventListener("mouseover", () => square14.style.backgroundColor = "#00ff00");
 let square15Hover = square15.addEventListener("mouseover", () => square15.style.backgroundColor = "#00ff00");
-let square16Hover = square16.addEventListener("mouseover", () => square16.style.backgroundColor = "#00ff00");
+let square16Hover = square16.addEventListener("mouseover", () => square16.style.backgroundColor = "#00ff00");*/
 
 
