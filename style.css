@@ -22,7 +22,13 @@ body {
     gap: 20px;
 }
 
-.start-btn {
+.btn-container {
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+}
+.start-btn,
+.reset-btn {
     width: 200px;
     height: 50px;
     font-size: 24px;
