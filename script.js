@@ -22,9 +22,16 @@ let createGrid = (gridDim) => {
 }
 
 let startButton = () => {
+    let startBtn = document.querySelector(".start-btn");
 
-}
-let grid = createGrid(20);
+    startBtn.addEventListener("click", () => {
+        const dimension =  prompt("Enter a number n for an n x n grid: ");
+        createGrid(dimension);
+
+    })
+;}
+
+startButton();
 
 
 

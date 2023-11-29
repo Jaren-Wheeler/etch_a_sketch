@@ -13,6 +13,23 @@ body {
    
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.start-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: slateblue;
+}
 .window {
     display: flex;
     flex-wrap: wrap;
@@ -20,27 +37,13 @@ body {
     align-items: center;
     background-color: slateblue;
     padding: 20px;
-    width: 45%;
+    width: 960px;
+    height: 960px;
     border: solid white;
 }
-.square1,
-.square2,
-.square3,
-.square4,
-.square5,
-.square6,
-.square7,
-.square8,
-.square9,
-.square10,
-.square11,
-.square12,
-.square13,
-.square14,
-.square15,
-.square16 {
+.gridElement {
     background-color: white;
     border: solid black;
-    width: 24.5%;
     aspect-ratio: 1 / 1;
+    overflow: hidden;
 }
